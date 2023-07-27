@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruits</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/627945d375.js" crossorigin="anonymous"></script>
+    <style>
+        .font-lato{
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
 </head>
-<body class="bg-slate-100">
+<body class="bg-slate-100 font-lato">
     <header>
         <div class="container mx-auto px-20 py-8">
             <nav class="bg-pink-600 rounded-full p-4">
@@ -59,11 +67,127 @@
           </div>
     </header>
 
-    <main></main>
+    <main><div>
+        <section class="container mx-auto">
+            <div class="text-black flex">
+                <div class="flex-1">
+                    <h1 class="font-extrabold text-4xl">Deal of the day</h1>                
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. <br> It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                    <div class="flex flex-col">
+                        <span class="countdown font-mono text-5xl">
+                            <span style="--value: 15;"></span>
+                        </span>
+                        days
+                    </div> 
+                    <div class="flex flex-col">
+                        <span class="countdown font-mono text-5xl">
+                            <span style="--value: 10;"></span>
+                        </span>
+                        hours
+                    </div> 
+                    <div class="flex flex-col">
+                        <span class="countdown font-mono text-5xl">
+                            <span style="--value: 24;"></span>
+                        </span>
+                        min
+                    </div> 
+                    <div class="flex flex-col">
+                        <span class="countdown font-mono text-5xl">
+                            <span style="--value: 50;"></span>
+                        </span>
+                        sec
+                    </div>
+                </div>
+            </div>
+            
+
+
+            <div class="text-center my-20 text-black">
+                <div class="flex justify-between flex-wrap">
+                    <div class="card w-60 shadow-xl py-8 m-4">
+                        <figure><img src="B8A3-fruit-brust/images/fruit1.png" alt="Grapes" /></figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Grapes</h2>
+                            <p>59.99-79.99 $</p>
+                            <button class="btn btn-link">Details</button>
+                        </div>
+                    </div>
+                    <div class="card w-60 shadow-xl py-8 m-4">
+                        <figure><img src="B8A3-fruit-brust/images/fruit2.png" alt="Orange" /></figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Orange</h2>
+                            <p>45.99-69.99 $</p>
+                            <button class="btn btn-link">Details</button>
+                        </div>
+                    </div>
+                    <div class="card w-60 shadow-xl py-8 m-4">
+                        <figure><img src="B8A3-fruit-brust/images/fruit3.png" alt="Mango" /></figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Mango</h2>
+                            <p>45.99-69.99 $</p>
+                            <button class="btn btn-link">Details</button>
+                        </div>
+                    </div>
+                    <div class="card w-60 shadow-xl py-8 m-4">
+                        <figure><img src="B8A3-fruit-brust/images/fruit4.png" alt="Strawberry" /></figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Strawberry</h2>
+                            <p>45.99-69.99 $</p>
+                            <button class="btn btn-link">Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="text-black">
+
+        <div class="flex justify-center items-center flex-col text-center pb-8">
+            <h1 class="font-bold text-4xl">Why choose US</h1>
+            <p>Contrary to popular belief, We won many awards. <br> It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+
+        <div class="flex pb-6">
+            <div class="flex-1 text-left border-r px-8">
+                <h1 class="border-b font-extrabold">Dedicated Team</h1>
+                <p class="pb-8">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+        
+                <h1 class="border-b font-extrabold">Fresh is Best</h1>
+                <p class="pb-8">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+        
+                <h1 class="border-b font-extrabold">Gift Certificates</h1>
+                <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            </div>
+        
+            <div class="flex-1 text-center border-r">
+                <img src="B8A3-fruit-brust/images/whychoose1.png" alt="">
+            </div>
+        
+            <div class="flex-1 text-right px-8">
+                <h1 class="border-b font-extrabold">Integrated Supplier</h1>
+                <p class="pb-8">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+        
+                <h1 class="border-b font-extrabold">Sustainable Practices</h1>
+                <p class="pb-8">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+        
+                <h1 class="border-b font-extrabold">Benefits</h1>
+                <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            </div>
+        </div>
+        
+
+        </div>
+    </section>
+    
+    </main>
+
     <footer class="footer footer-center p-10 bg-black text-primary-content">
         <div>
           <h1 class="font-bold text-3xl py-4">Fruit Burst</h1>
-          <p>Providing tasty juice since 2020</p> 
+          <p>Providing tasty & healthy fruits since 2020</p> 
         </div> 
         <div>
             <ul class="flex items-center space-x-6">
@@ -83,5 +207,6 @@
           </div>
         </div>
       </footer>
+
 </body>
 </html>
